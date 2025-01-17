@@ -141,6 +141,14 @@
                 "com.miui.home",
                 "com.miui.gallery"
             ]
+        },
+        {
+            "name": "skip_boost_list",
+            "config": [
+                "com.miui.face",
+                "com.xiaomi.smarthome",
+                "light.sensor.service"
+            ]
         }
     ],
     "configs_cn": [

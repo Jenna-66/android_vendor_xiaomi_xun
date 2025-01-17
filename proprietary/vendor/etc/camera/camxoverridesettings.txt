@@ -13,3 +13,4 @@ enable3ADebugData=FALSE
 enableTuningMetadata=FALSE
 RaiseRecoverySigabrt=FALSE
 overrideLogLevels=0
+enableNativeHEIF=FALSE
