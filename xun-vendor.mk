@@ -11,6 +11,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
     vendor/xiaomi/xun/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/xun/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
+    vendor/xiaomi/xun/proprietary/odm/etc/xuncs_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xuncs_build.prop \
+    vendor/xiaomi/xun/proprietary/odm/etc/xunes_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xunes_build.prop \
+    vendor/xiaomi/xun/proprietary/odm/etc/xungs_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xungs_build.prop \
+    vendor/xiaomi/xun/proprietary/odm/etc/xunis_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xunis_build.prop \
     vendor/xiaomi/xun/proprietary/vendor/firmware/Conf_MultipleTest_ft8203.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest_ft8203.ini \
     vendor/xiaomi/xun/proprietary/vendor/firmware/Conf_MultipleTest_ft8203_ab.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest_ft8203_ab.ini \
     vendor/xiaomi/xun/proprietary/vendor/firmware/focaltech_ts_fw_boe_ft8203.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_boe_ft8203.bin \
@@ -284,6 +288,37 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    audio.primary.bengal \
+    sound_trigger.primary.bengal \
+    libadm \
+    libagm \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
+    libar-pal \
+    libats \
+    libaudio_log_utils \
+    libbitmlengine \
+    libcamera_nn_stub \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
+    libkaraokepal \
+    liblx-ar_util \
+    liblx-osal \
+    libmcs \
+    libofflinelog \
+    libqtigefar \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
+    vendor.qti.hardware.pal@1.0-impl \
     com.qti.sensor.m84_aac_gc05a2_ii \
     com.qti.sensor.m84_aac_gc08a3_i \
     com.qti.sensor.m84_aac_hi556_i \
@@ -356,10 +391,8 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.skinbeautifier \
     com.xiaomi.plugin.superlowlight \
     com.xiaomi.plugin.swflip \
-    audio.primary.bengal \
     camera.qcom \
     com.qti.chi.override \
-    sound_trigger.primary.bengal \
     libPlatformValidatorShared \
     libSNPE \
     libSnpeHtpPrepare \
@@ -370,49 +403,24 @@ PRODUCT_PACKAGES += \
     libTrustedInputTZ \
     libTrustedUI \
     libTrustedUITZ \
-    libadm \
-    libagm \
     libaidenoiser \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
     libarcsoft_low_light_hdr \
     libarcsoft_supernight \
-    libats \
-    libaudio_log_utils \
     libbase64 \
-    libbitmlengine \
     libc++_shared \
     libcalculator \
     libcalculator_htp \
-    libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswispiqmodule \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
     libipebpsstriping \
     libjpege \
-    libkaraokepal \
-    liblx-ar_util \
-    liblx-osal \
-    libmcs \
     libmctfengine_stub \
     libmialgo_ai_vision \
     libmialgo_sd \
@@ -425,19 +433,15 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmorpho_Lowlight \
     libmpbase \
-    libofflinelog \
     libopencv \
     libopestriping \
     libos \
-    libqtigefar \
     libreffeature \
     libsamplefilterplugin \
     libswregistrationalgo \
     libtfestriping \
     libxml2_vendor \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.trustedui@1.0 \
     vendor.qti.hardware.trustedui@1.1 \
     vendor.qti.hardware.trustedui@1.2 \
