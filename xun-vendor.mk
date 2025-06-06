@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/firmware/focaltech_ts_fw_huaxing_ft8203.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_huaxing_ft8203.bin \
     vendor/xiaomi/xun/proprietary/vendor/firmware/novatek_ts_fw_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_tianma.bin \
     vendor/xiaomi/xun/proprietary/vendor/firmware/novatek_ts_mp_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp_tianma.bin \
+    vendor/xiaomi/xun/proprietary/vendor/etc/displayconfig/display_id_4630946278308427649.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946278308427649.xml \
+    vendor/xiaomi/xun/proprietary/vendor/etc/displayconfig/display_id_4630946470691739265.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946470691739265.xml \
+    vendor/xiaomi/xun/proprietary/vendor/etc/displayconfig/display_id_4630946894427414401.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946894427414401.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp \
@@ -108,10 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/mdss_dsi_panel_m84_35_03_0b_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m84_35_03_0b_fhdp_video_mi.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mdss_dsi_panel_m84_36_02_0a_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m84_36_02_0a_fhdp_video_mi.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mdss_dsi_panel_m84_42_03_0c_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m84_42_03_0c_fhdp_video_mi.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/media_codecs_khaje_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_khaje_iot.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/media_codecs_performance_khaje_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_khaje_iot.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/media_khaje_iot/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_khaje_iot/video_system_specs.json \
-    vendor/xiaomi/xun/proprietary/vendor/etc/media_profiles_khaje_iot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_khaje_iot.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_bengal_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_idp.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_bengal_idp_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_idp_india.xml \
