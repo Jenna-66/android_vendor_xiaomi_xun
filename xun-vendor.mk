@@ -6,53 +6,27 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/xun
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/xun/proprietary/odm/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration.xml \
-    vendor/xiaomi/xun/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/xun/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/xun/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/xun/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
     vendor/xiaomi/xun/proprietary/odm/etc/xuncs_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xuncs_build.prop \
     vendor/xiaomi/xun/proprietary/odm/etc/xunes_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xunes_build.prop \
     vendor/xiaomi/xun/proprietary/odm/etc/xungs_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xungs_build.prop \
     vendor/xiaomi/xun/proprietary/odm/etc/xunis_build.prop:$(TARGET_COPY_OUT_ODM)/etc/xunis_build.prop \
-    vendor/xiaomi/xun/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
-    vendor/xiaomi/xun/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
-    vendor/xiaomi/xun/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/xiaomi/xun/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/xun/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/xun/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/xun/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/xiaomi/xun/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/xiaomi/xun/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/privapp-permissions-qti-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti-system-ext.xml \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
     vendor/xiaomi/xun/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
-    vendor/xiaomi/xun/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/xun/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_idp/IDP_workspaceFileXml.qwsp \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_idp_arrax/IDP_arrax_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_idp_arrax/IDP_arrax_acdb_cal.acdb \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_idp_arrax/IDP_arrax_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_idp_arrax/IDP_arrax_workspaceFileXml.qwsp \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_qrd/QRD_acdb_cal.acdb \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_qrd/QRD_workspaceFileXml.qwsp \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_qrd_arrax/QRD_arrax_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_qrd_arrax/QRD_arrax_acdb_cal.acdb \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_qrd_arrax/QRD_arrax_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_qrd_arrax/QRD_arrax_workspaceFileXml.qwsp \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_scubaidp/IDP_scuba_acdb_cal.acdb \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_scubaidp/IDP_scuba_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_scubaidp/IDP_scuba_workspaceFileXml.qwsp \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_scubaqrd/QRD_scuba_acdb_cal.acdb \
-    vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/bengal_scubaqrd/QRD_scuba_workspaceFileXml.qwsp \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/xiaomi/xun/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd \
@@ -168,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
+    vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.qti.battery_stats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.battery_stats.rc \
@@ -197,8 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
-    vendor/xiaomi/xun/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc \
     vendor/xiaomi/xun/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
+    vendor/xiaomi/xun/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
@@ -216,13 +191,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/mdss_dsi_panel_m84_35_03_0b_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m84_35_03_0b_fhdp_video_mi.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mdss_dsi_panel_m84_36_02_0a_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m84_36_02_0a_fhdp_video_mi.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mdss_dsi_panel_m84_42_03_0c_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m84_42_03_0c_fhdp_video_mi.xml \
+    vendor/xiaomi/xun/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
+    vendor/xiaomi/xun/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/xiaomi/xun/proprietary/vendor/etc/media_codecs_performance_khaje_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_khaje_v0.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/media_khaje_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_khaje_v0/video_system_specs.json \
+    vendor/xiaomi/xun/proprietary/vendor/etc/media_profiles_khaje_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_khaje_v0.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_bengal_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_idp.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_bengal_idp_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_idp_india.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_bengal_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_qrd.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_scubaidp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_scubaidp.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/mixer_paths_scubaqrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_scubaqrd.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
@@ -241,20 +217,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/qdcm_calib_data_m84_36_02_0a_video_mode_fhdp_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_m84_36_02_0a_video_mode_fhdp_dsi_panel.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/qdcm_calib_data_m84_42_03_0c_video_mode_fhdp_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_m84_42_03_0c_video_mode_fhdp_dsi_panel.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/resourcemanager_bengal_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resourcemanager_bengal_idp.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/resourcemanager_bengal_idp_arrax.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resourcemanager_bengal_idp_arrax.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/resourcemanager_bengal_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resourcemanager_bengal_qrd.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/resourcemanager_bengal_qrd_arrax.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resourcemanager_bengal_qrd_arrax.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/resourcemanager_scubaidp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resourcemanager_scubaidp.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/resourcemanager_scubaqrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resourcemanager_scubaqrd.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
     vendor/xiaomi/xun/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
-    vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
-    vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
-    vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/xun/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
@@ -331,7 +299,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/xun/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/xun/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/xiaomi/xun/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/xun/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
     vendor/xiaomi/xun/proprietary/vendor/etc/thermal-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-class0.conf \
@@ -349,7 +316,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-videochat.conf \
     vendor/xiaomi/xun/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/xun/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
-    vendor/xiaomi/xun/proprietary/vendor/etc/usecaseKvManager_arrax.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager_arrax.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/xun/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/xun/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
@@ -406,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xun/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/xiaomi/xun/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/xiaomi/xun/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
-    vendor/xiaomi/xun/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/xun/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/xun/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/xun/proprietary/vendor/lib64/camera/com.qti.sensormodule.m84_aac_gc05a2_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.m84_aac_gc05a2_ii.bin \
@@ -427,144 +392,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    eglSubDriverAndroid \
-    libEGL_adreno \
-    libGLESv1_CM_adreno \
-    libGLESv2_adreno \
-    libVkLayer_ADRENO_qprofiler \
-    libq3dtools_adreno \
-    libq3dtools_esx \
-    audio.primary.bengal \
-    sound_trigger.primary.bengal \
-    vendor.qti.hardware.servicetracker@1.2-impl \
-    vendor.qti.memory.pasrmanager@1.0-impl \
-    vulkan.adreno \
-    libCB \
-    libEvrcSwCodec \
-    libOpenCL \
-    libQcelp13SwCodec \
-    libadm \
-    libadreno_app_profiles \
-    libadreno_utils \
-    libadsp_default_listener \
-    libadsprpc \
-    libagm \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
-    libats \
-    libaudio_log_utils \
-    libbitmlengine \
-    libcamera_nn_stub \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswispiqmodule \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libcapiv2svacnnvendor \
-    libcapiv2svarnnvendor \
-    libcapiv2uvvendor \
-    libcdfw \
-    libcdfw_remote_api \
-    libcdsp_default_listener \
-    libcdsprpc \
-    libdapparamstorage \
-    libdiag \
-    libdlbpreg \
-    libdsd2pcm \
-    libgps.utils \
-    libgsl \
-    libkaraokepal \
-    libkcl \
-    libkernelmanager \
-    liblistensoundmodel2vendor \
-    libllvm-glnext \
-    libllvm-qcom \
-    libllvm-qgl \
-    liblx-ar_util \
-    liblx-osal \
-    libmcs \
-    libmdmdetect \
-    libmdsprpc \
-    libofflinelog \
-    libpasrutils \
-    libpdmapper \
-    libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
-    libperipheral_client \
-    libqc2audio_base \
-    libqc2audio_basecodec \
-    libqc2audio_core \
-    libqc2audio_hooks \
-    libqc2audio_hwaudiocodec \
-    libqc2audio_platform \
-    libqc2audio_swaudiocodec \
-    libqc2audio_utils \
-    libqc2colorconvertfilter \
-    libqc2filter \
-    libqcodec2_base \
-    libqcodec2_basecodec \
-    libqcodec2_core \
-    libqcodec2_filterbase \
-    libqcodec2_hooks \
-    libqcodec2_mockfilter \
-    libqcodec2_mockqc2filter \
-    libqcodec2_platform \
-    libqcodec2_utils \
-    libqcodec2_v4l2codec \
-    libqmi_cci \
-    libqmi_common_so \
-    libqmi_encdec \
-    libqti-iopd-client \
-    libqti-iopd \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-util \
-    libqtigefar \
-    libsdsprpc \
-    libsensorslog \
-    libskewknob \
-    libsnsapi \
-    libssc \
-    libstreamparser \
-    libsubsystem_control \
-    libthermalclient \
-    libvideotxr \
-    libvideoutils \
-    libvmmem \
-    qti.video.utils.videobufferlayout \
-    sns_client_example \
-    libasphere \
-    libdlbvol \
-    libhwdap \
-    libshoebox \
-    libswgamedap \
-    libswvqe \
-    vendor.dolby.hardware.dms@2.0 \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
-    vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
-    vendor.qti.hardware.pal@1.0-impl \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0 \
-    libeai_fixed_32 \
     btaudio_offload_if \
     com.qti.sensor.m84_aac_gc05a2_ii \
     com.qti.sensor.m84_aac_gc08a3_i \
@@ -633,26 +462,27 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
     com.qualcomm.qti.dpm.api@1.0_vendor \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
     com.xiaomi.plugin.hdr \
     com.xiaomi.plugin.memcpy \
     com.xiaomi.plugin.photosolid \
     com.xiaomi.plugin.skinbeautifier \
     com.xiaomi.plugin.superlowlight \
     com.xiaomi.plugin.swflip \
+    eglSubDriverAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libVkLayer_ADRENO_qprofiler \
+    libq3dtools_adreno \
+    libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
+    audio.primary.bengal \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     displayfeature.default \
+    sound_trigger.primary.bengal \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
@@ -665,29 +495,28 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
+    vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
+    vendor.qti.memory.pasrmanager@1.0-impl \
     vendor.xiaomi.hardware.displayfeature@1.0-impl \
-    vendor.xiaomi.hardware.micharge@1.0-impl \
-    lib-imscommon \
-    lib-imsdpl \
-    lib-imsqimf \
-    lib-imsrcsservice \
-    lib-imsservice \
-    lib-imsvtcore \
-    lib-imsxml \
-    lib-rtpcommon \
-    lib-rtpcore \
-    lib-rtpsl \
+    vulkan.adreno \
+    libAlacSwDec \
+    libApeSwDec \
+    libCB \
+    libEvrcSwCodec \
     libFileMux_proprietary \
+    libFlacSwDec \
     libGPMTEEC_vendor \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libOpenCL \
     libPlatformValidatorShared \
     libQSEEComAPI \
     libQTEEConnector_vendor \
+    libQcelp13SwCodec \
     libSNPE \
     libSecureUILib \
     libSnpeHtpPrepare \
@@ -703,15 +532,24 @@ PRODUCT_PACKAGES += \
     lib_bt_ble \
     lib_bt_bundle \
     libadaptlaunch \
+    libadm \
+    libadreno_app_profiles \
+    libadreno_utils \
+    libadsp_default_listener \
+    libadsprpc \
+    libagm \
     libaidenoiser \
     libapengine \
     libappclassifier \
+    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
     libarcsoft_low_light_hdr \
     libarcsoft_supernight \
+    libaudio_log_utils \
     libbase64 \
+    libbitmlengine \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
@@ -720,19 +558,45 @@ PRODUCT_PACKAGES += \
     libcacertclient \
     libcalculator \
     libcalculator_htp \
+    libcamera2ndk_vendor \
+    libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
+    libcapiv2svacnnvendor \
+    libcapiv2svarnnvendor \
+    libcapiv2uvvendor \
+    libcdfw \
+    libcdfw_remote_api \
+    libcdsp_default_listener \
+    libcdsprpc \
     libcert_parse.wpa_s \
     libchilog \
     libcne \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
     libcom.qti.chinodeutils \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
     libconfigdb \
     libcpion \
+    libdapparamstorage \
+    libdeccfg \
+    libdiag \
     libdiagjni \
     libdisp-aba \
     libdisplayconfig.qti \
@@ -742,10 +606,12 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdlbdsservice \
+    libdlbpreg \
     libdpmqmihal \
     libdpps \
     libdrmfs \
     libdrmtime \
+    libdsd2pcm \
     libdsi_netctrl \
     libdsutils \
     libeai_fixed \
@@ -755,8 +621,10 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgdtap \
     libgnsspps \
+    libgps.utils \
     libgpt \
     libgpudataproducer \
+    libgsl \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
@@ -769,12 +637,19 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
+    libkaraokepal \
+    libkcl \
+    libkernelmanager \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
     liblearningmodule \
     liblightninglaunches \
+    liblistensoundmodel2vendor \
+    libllvm-glnext \
+    libllvm-qcom \
+    libllvm-qgl \
     liblmthermallistner \
     liblmutils-ns \
     libloadalgo_stub \
@@ -793,7 +668,10 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     libmapdata_api \
     libmasc \
+    libmcs \
     libmctfengine_stub \
+    libmdmdetect \
+    libmdsprpc \
     libmemperfd \
     libmeters-ns \
     libmeters \
@@ -819,42 +697,76 @@ PRODUCT_PACKAGES += \
     libnative-api \
     libnetmgr \
     libnetmgrxfrmutils \
-    liboemaids_vendor \
     liboemcrypto \
+    libofflinelog \
     libopencv \
     libopestriping \
     libops \
     libos \
     libpal_net_if \
+    libpasrutils \
+    libpdmapper \
+    libpdnotifier \
+    libperfconfig \
+    libperfgluelayer \
+    libperfioctl \
+    libperipheral_client \
     libprefapps \
     libprekill \
     libprocomp \
     libqapesdk \
+    libqc2audio_base \
+    libqc2audio_basecodec \
+    libqc2audio_core \
+    libqc2audio_hooks \
+    libqc2audio_hwaudiocodec \
+    libqc2audio_platform \
+    libqc2audio_swaudiocodec \
+    libqc2audio_utils \
+    libqc2colorconvertfilter \
+    libqc2filter \
     libqcbor \
     libqcc_file_agent \
     libqcc_sdk \
     libqcci_legacy \
-    libqcrildatactl \
+    libqcodec2_base \
+    libqcodec2_basecodec \
+    libqcodec2_core \
+    libqcodec2_filterbase \
+    libqcodec2_hooks \
+    libqcodec2_mockfilter \
+    libqcodec2_mockqc2filter \
+    libqcodec2_platform \
+    libqcodec2_utils \
+    libqcodec2_v4l2codec \
     libqdi \
     libqdutils \
     libqesdk2_0 \
     libqisl \
     libqmi \
+    libqmi_cci \
     libqmi_client_helper \
     libqmi_client_qmux \
+    libqmi_common_so \
     libqmi_csi \
     libqmi_csvt_srvc \
+    libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
     libqrtr \
     libqseed3 \
     libqsocket \
+    libqti-iopd-client \
+    libqti-iopd \
+    libqti-perfd-client \
+    libqti-perfd \
     libqti-qesdk-secure \
+    libqti-util \
     libqti-utils \
+    libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
-    librcc \
-    libreffeature \
+    librcmask \
     librpmb \
     libsamplefilterplugin \
     libsdedrm \
@@ -864,35 +776,46 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmextension \
     libsdmutils \
+    libsdsprpc \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
+    libsensorslog \
     libshsc \
     libsi \
     libsilkyscrolls \
+    libskewknob \
     libsnpe_dsp_domains_v2 \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
     libsns_registry_skel \
+    libsnsapi \
     libsnsdiaglog \
     libsoc_helper \
     libsoc_helper_jni \
     libspcom \
     libspl \
+    libssc \
     libssc_default_listener \
     libssd \
+    libstreamparser \
+    libsubsystem_control \
     libswregistrationalgo \
     libsys_info_cache \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libtfestriping \
+    libthermalclient \
     libtime_genoff \
     libtinyxml \
     libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
     libvendor.xiaomi.hardware.displayfeature@1.0 \
+    libvideotxr \
+    libvideoutils \
+    libvmmem \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -920,8 +843,15 @@ PRODUCT_PACKAGES += \
     libxml2_vendor \
     libxtadapter \
     libdrmclearkeyplugin \
+    qti.video.utils.videobufferlayout \
     sensors.ssc \
+    libasphere \
+    libdlbvol \
+    libhwdap \
     libmisoundfx \
+    libshoebox \
+    libswgamedap \
+    libswvqe \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -930,6 +860,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
     vendor.dolby.hardware.dms@2.0-impl \
+    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -946,6 +877,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0_vendor \
+    vendor.qti.hardware.ListenSoundModel@1.0-impl \
+    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -971,13 +904,17 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dpmservice@1.0_vendor \
     vendor.qti.hardware.dpmservice@1.1 \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.embmssl@1.0 \
     vendor.qti.hardware.embmssl@1.1 \
     vendor.qti.hardware.fm@1.0_vendor \
+    vendor.qti.hardware.iop@1.0 \
+    vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.limits@1.0 \
     vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.limits@1.2 \
     vendor.qti.hardware.mwqemadapter@1.0 \
+    vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccsyshal@1.2_vendor \
@@ -986,37 +923,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
-    vendor.qti.hardware.radio.ims@1.0 \
-    vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \
-    vendor.qti.hardware.radio.ims@1.3 \
-    vendor.qti.hardware.radio.ims@1.4 \
-    vendor.qti.hardware.radio.ims@1.5 \
-    vendor.qti.hardware.radio.ims@1.6 \
-    vendor.qti.hardware.radio.ims@1.7 \
-    vendor.qti.hardware.radio.ims@1.8 \
-    vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
-    vendor.qti.hardware.radio.lpa@1.0 \
-    vendor.qti.hardware.radio.lpa@1.1 \
-    vendor.qti.hardware.radio.lpa@1.2 \
-    vendor.qti.hardware.radio.qcrilhook@1.0 \
-    vendor.qti.hardware.radio.qtiradio@1.0 \
-    vendor.qti.hardware.radio.qtiradio@2.0 \
-    vendor.qti.hardware.radio.qtiradio@2.1 \
-    vendor.qti.hardware.radio.qtiradio@2.2 \
-    vendor.qti.hardware.radio.qtiradio@2.3 \
-    vendor.qti.hardware.radio.qtiradio@2.4 \
-    vendor.qti.hardware.radio.qtiradio@2.5 \
-    vendor.qti.hardware.radio.qtiradio@2.6 \
-    vendor.qti.hardware.radio.uim@1.0 \
-    vendor.qti.hardware.radio.uim@1.1 \
-    vendor.qti.hardware.radio.uim@1.2 \
-    vendor.qti.hardware.radio.uim_remote_client@1.0 \
-    vendor.qti.hardware.radio.uim_remote_client@1.1 \
-    vendor.qti.hardware.radio.uim_remote_client@1.2 \
-    vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
@@ -1025,85 +931,54 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.trustedui@1.1 \
     vendor.qti.hardware.trustedui@1.2 \
     vendor.qti.hardware.tui_comm@1.0 \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.configservice@1.0 \
-    vendor.qti.ims.configservice@1.1 \
-    vendor.qti.ims.connection@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.factory@2.1 \
-    vendor.qti.ims.factory@2.2 \
     vendor.qti.ims.rcsconfig@1.0 \
     vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.ims.rcssip@1.0 \
-    vendor.qti.ims.rcssip@1.1 \
-    vendor.qti.ims.rcssip@1.2 \
-    vendor.qti.ims.rcsuce@1.0 \
-    vendor.qti.ims.rcsuce@1.1 \
-    vendor.qti.ims.rcsuce@1.2 \
-    vendor.qti.imsrtpservice@3.0_vendor \
-    vendor.qti.imsrtpservice@3.1-service-Impl \
-    vendor.qti.imsrtpservice@3.1_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
-    vendor.qti.voiceprint@1.0 \
-    vendor.xiaomi.hardware.micharge@1.0 \
-    libSnpeHtpV68Skel \
-    libSnpeHtpV69Skel \
-    libadsp_jpege_skel \
-    libbitml_nsp_skel \
-    libcalculator_skel \
-    libcamera_nn_skel \
-    libdspCV_skel \
-    libdsp_streamer_binning \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libmctfengine_skel \
-    libsnpe_dsp_v65_domains_v2_skel \
-    libsnpe_dsp_v66_domains_v2_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
-    misound_karaoke_res \
-    misound_karaokemix_res \
-    misound_res_headphone \
-    misound_res_spk \
-    libqcc \
-    libqcc_file_agent_sys \
-    libqcc_netstats \
-    libqccdme \
-    libqccfileservice \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
-    vendor.qti.hardware.qccsyshal@1.2-halimpl \
-    vendor.qti.hardware.qccsyshal@1.2 \
-    vendor.qti.hardware.qccvndhal@1.0 \
-    vendor.qti.qccsyshal_aidl-V1-ndk \
-    vendor.qti.qccvndhal_aidl-V1-ndk \
+    vendor.qti.memory.pasrmanager@1.0 \
+    vendor.qti.memory.pasrmanager@1.1 \
+    vendor.qti.power.pasrmanager@1.0 \
+    vendor_lib_rfsa_adsp_libSnpeHtpV68Skel_so \
+    vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so \
+    vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
+    vendor_lib_rfsa_adsp_libcalculator_skel_so \
+    vendor_lib_rfsa_adsp_libcamera_nn_skel_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmctfengine_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v65_domains_v2_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v66_domains_v2_skel_so \
+    vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
+    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
+    vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
+    vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
+    vendor_lib_rfsa_adsp_misound_res_headphone_bin \
+    vendor_lib_rfsa_adsp_misound_res_spk_bin \
     com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
-    lib-imsvideocodec \
-    lib-imsvt \
-    lib-imsvtextutils \
-    lib-imsvtutils \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
     libfm-hci \
-    libimscamera_jni \
-    libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
+    libqcc \
+    libqcc_file_agent_sys \
+    libqcc_netstats \
+    libqccdme \
+    libqccfileservice \
     libwfdavenhancements \
     libwfdclient \
     libwfdcommonutils \
@@ -1121,71 +996,45 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
-    vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \
     vendor.qti.hardware.fm-V1-ndk \
     vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qccsyshal@1.1 \
+    vendor.qti.hardware.qccsyshal@1.2-halimpl \
+    vendor.qti.hardware.qccsyshal@1.2 \
+    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
-    vendor.qti.imsrtpservice@3.0 \
-    vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.qccsyshal_aidl-V1-ndk \
+    vendor.qti.qccvndhal_aidl-V1-ndk \
     CACertService \
     CneApp \
-    IWlanService \
     TimeService \
     com.xiaomi.ugd \
-    uimgbaservice \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
-    DeviceInfo \
-    ImsRcsService \
     PowerOffAlarm \
     QCC \
-    QtiTelephonyService \
-    atfwd \
     WfdService \
     dpmserviceapp \
-    ims \
     WfdCommon \
-    tcmclient \
-    uimgbalibrary \
-    uimgbamanagerlibrary \
-    uimservicelibrary \
-    audiosphere \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
-    qcrilhook \
     vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.ims.connection-V1.0-java \
-    vendor.qti.ims.connectionaidlservice-V1-java \
-    vendor.qti.ims.factory-V2.0-java \
-    vendor.qti.ims.factory-V2.1-java \
-    vendor.qti.ims.factory-V2.2-java \
-    vendor.qti.ims.factoryaidlservice-V1-java \
-    vendor.qti.ims.rcssip-V1.0-java \
-    vendor.qti.ims.rcssip-V1.1-java \
-    vendor.qti.ims.rcssip-V1.2-java \
-    vendor.qti.ims.rcssipaidlservice-V1-java \
-    vendor.qti.ims.rcsuce-V1.0-java \
-    vendor.qti.ims.rcsuce-V1.1-java \
-    vendor.qti.ims.rcsuce-V1.2-java \
-    vendor.qti.ims.rcsuceaidlservice-V1-java \
     android.hardware.security.keymint-service-qti.xml \
-    c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
+    c2_manifest_vendor_xun.xml \
     manifest_android.hardware.drm-service.widevine.xml \
-    manifest_non_qmaa.xml \
-    manifest_non_qmaa_extn.xml \
     vendor.dolby.hardware.dms.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.limits-service.xml \
     vendor.qti.hardware.perf.xml \
     vendor.qti.hardware.servicetracker@1.2-service.xml \
     vendor.qti.memory.pasrmanager@1.0-service.xml \
-    vendor.xiaomi.hardware.micharge@1.0.xml \
     SoterProvisioningTool \
     adsprpcd \
     battery_stats \
@@ -1207,6 +1056,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti \
     vendor.display.color@1.0-service \
     vendor.dolby.hardware.dms@2.0-service \
+    vendor.dolby.media.c2@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.composer-service \
@@ -1225,13 +1075,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager@1.0-service \
     vendor.qti.psiclient@1.0-service \
     vendor.xiaomi.hardware.displayfeature@1.0-service \
-    vendor.xiaomi.hardware.micharge@1.0-service \
     init.qcom.sensors \
     init.qti.chg_policy \
     init.qti.media \
     init.qti.qcv \
     irsc_util \
-    ks \
     loadalgo \
     lowi-server \
     mi_thermald \
@@ -1272,12 +1120,10 @@ PRODUCT_PACKAGES += \
     wfdservice64
 
 PRODUCT_PACKAGES += \
-    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
-    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
-    vendor_lib_libEGL_adreno_so \
-    vendor_lib_libGLESv2_adreno_so \
-    vendor_lib_libq3dtools_adreno_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
